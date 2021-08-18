@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Return Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Stock Return Calculator </h1>
+        </div>
+    </header>
+    <div class="container">
+        <form action="#" class="form">
+            <div class="form-group">
+                <label for="purchase-price">Purchase Price</label>
+                <input type="number" name="purchase-price" id="purchase-price" class="form-control"
+                    placeholder="Enter purchased price">
+                <div id="purchase-error" class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="stocks-quantity">Stocks Quantity</label>
+                <input type="number" name="stocks-quantity" id="stocks-quantity" class="form-control"
+                    placeholder="Enter stocks quantity">
+                <div id="quantity-error" class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="current-price">Current Price</label>
+                <input type="number" name="current-price" id="current-price" class="form-control"
+                    placeholder="Enter current price">
+                <div id="current-error" class="error"></div>
+            </div>
+            <div class="form-group btn-group">
+                <input type="submit" id="btn-check" value="Check" class="form-control btn">
+                <input type="reset" id="btn-reset" value="Reset" class="form-control btn btn-reset">
+            </div>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="./script.js"></script>
+
+    <footer class="footer">
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/rutuja-chandgude-1b8a481b1/">Linkedin</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/rutuchandgude">Github</a>  
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/rutuchandgude/">Instagram</a>
+            </li>
+            <p>©2021 Rutuja Chandgude</p>
+        </ul>
+       
+    </footer>
+</body>
+</html>

@@ -128,6 +128,7 @@ padding:0rem 0.5rem;
 }
 
 .footer ul{
+    top-margin:2rem;
     padding-inline-start: 0;
  }
 

@@ -41,8 +41,11 @@ const validateData = (costPrice, qty, currPrice) => {
   if (currPrice === '') {
     currentInputError.innerHTML = 'This field is required';
   }
-  if (costPrice !== '' && qty !== '' && currPrice !== '') {
+  if (costPrice>0 && qty>0 && currPrice>0) {
     calculateReturn(costPrice, qty, currPrice);
+  }
+  else{
+    outputDiv.innerHTML = 'please give correct input';
   }
 };
 
